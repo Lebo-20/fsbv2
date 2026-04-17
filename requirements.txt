@@ -3,3 +3,6 @@ requests==2.31.0
 aiohttp==3.9.3
 python-dotenv==1.0.1
 cloudscraper==1.2.71
+qrcode[pil]==7.4.2
+beautifulsoup4==4.12.3
+Pillow==10.3.0
