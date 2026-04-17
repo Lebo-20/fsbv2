@@ -1,0 +1,47 @@
+# Environment & Secrets
+.env
+.env.*
+
+# Database & Runtime Files
+*.db
+*.sqlite
+bot.log
+*.log
+
+# JSON Data Files (runtime state - not source code)
+all_users.json
+drama_db.json
+drama_stats.json
+history.json
+settings.json
+video_db.json
+vip_db.json
+transactions.json
+catalog_db.json
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temp / Downloads
+downloads/
+temp/
+tmp/
